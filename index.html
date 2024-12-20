@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TO-DO</title>
+</head>
+<body>
+    <main class="main">
+        <header><div class="header">TO-DO LIST</div></header>
+            <div class="main-app" id="main-app">
+                <form  method="POST" id="myform">
+                    <input type="text" id="add-task" name="add-task" placeholder="Enter Your task here">
+                    <div class="container">
+                    <input type="submit" value="add" id="add">
+                    <input type="button" value="delete" id="delete">
+                    <div class="task-list" id="list" style="display: none;"></div>
+                </div>
+                </form>
+            </div>
+    </main>
+    <footer></footer>
+
+    <script src="frontend.js"></script>
+</body>
+</html>
